@@ -15,6 +15,22 @@
 		2B1D3CEA267A1B6300C84651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D3CE8267A1B6300C84651 /* LaunchScreen.storyboard */; };
 		2B1D3CF5267A1B6300C84651 /* RichTextDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3CF4267A1B6300C84651 /* RichTextDemoTests.swift */; };
 		2B1D3D00267A1B6300C84651 /* RichTextDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3CFF267A1B6300C84651 /* RichTextDemoUITests.swift */; };
+		2B1D3D0E267A1C2000C84651 /* RichText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3D0D267A1C2000C84651 /* RichText.swift */; };
+		2B1D3D10267A1C3A00C84651 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3D0F267A1C3A00C84651 /* Pattern.swift */; };
+		2B1D3D12267A1C4900C84651 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3D11267A1C4900C84651 /* DataModel.swift */; };
+		2B1D3D14267A1D7000C84651 /* TextBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3D13267A1D7000C84651 /* TextBlockView.swift */; };
+		2B1D3D16267A28D400C84651 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3D15267A28D400C84651 /* ListView.swift */; };
+		2B523331267F7265004BF20A /* SaveToFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B523330267F7265004BF20A /* SaveToFile.swift */; };
+		2BE1B80826801F4600416F27 /* UndoAndRedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B80726801F4600416F27 /* UndoAndRedo.swift */; };
+		2BE1B80C26803A0100416F27 /* ListViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B80B26803A0100416F27 /* ListViewDelegate.swift */; };
+		2BE1B80E26803AC700416F27 /* TextBlockViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1B80D26803AC700416F27 /* TextBlockViewDelegate.swift */; };
+		2BFDB08D267B11A200DDF064 /* BIUSButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB08C267B11A200DDF064 /* BIUSButtonGroup.swift */; };
+		2BFDB09C267B262100DDF064 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB09B267B262100DDF064 /* Notification.swift */; };
+		2BFDB09E267B274000DDF064 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB09D267B274000DDF064 /* Extension.swift */; };
+		2BFDB0A1267C293A00DDF064 /* ImageBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0A0267C293A00DDF064 /* ImageBlockView.swift */; };
+		2BFDB0A3267C2DDC00DDF064 /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0A2267C2DDC00DDF064 /* BlockType.swift */; };
+		2BFDB0A8267CAD3400DDF064 /* RightButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0A7267CAD3400DDF064 /* RightButtonGroup.swift */; };
+		2BFDB0AA267CAF6600DDF064 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDB0A9267CAF6600DDF064 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,22 @@
 		2B1D3CFB267A1B6300C84651 /* RichTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D3CFF267A1B6300C84651 /* RichTextDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemoUITests.swift; sourceTree = "<group>"; };
 		2B1D3D01267A1B6300C84651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1D3D0D267A1C2000C84651 /* RichText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichText.swift; sourceTree = "<group>"; };
+		2B1D3D0F267A1C3A00C84651 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		2B1D3D11267A1C4900C84651 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2B1D3D13267A1D7000C84651 /* TextBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlockView.swift; sourceTree = "<group>"; };
+		2B1D3D15267A28D400C84651 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2B523330267F7265004BF20A /* SaveToFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveToFile.swift; sourceTree = "<group>"; };
+		2BE1B80726801F4600416F27 /* UndoAndRedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoAndRedo.swift; sourceTree = "<group>"; };
+		2BE1B80B26803A0100416F27 /* ListViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDelegate.swift; sourceTree = "<group>"; };
+		2BE1B80D26803AC700416F27 /* TextBlockViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlockViewDelegate.swift; sourceTree = "<group>"; };
+		2BFDB08C267B11A200DDF064 /* BIUSButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIUSButtonGroup.swift; sourceTree = "<group>"; };
+		2BFDB09B267B262100DDF064 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2BFDB09D267B274000DDF064 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2BFDB0A0267C293A00DDF064 /* ImageBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBlockView.swift; sourceTree = "<group>"; };
+		2BFDB0A2267C2DDC00DDF064 /* BlockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockType.swift; sourceTree = "<group>"; };
+		2BFDB0A7267CAD3400DDF064 /* RightButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightButtonGroup.swift; sourceTree = "<group>"; };
+		2BFDB0A9267CAF6600DDF064 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +134,11 @@
 				2B1D3CDD267A1B6100C84651 /* AppDelegate.swift */,
 				2B1D3CDF267A1B6100C84651 /* SceneDelegate.swift */,
 				2B1D3CE1267A1B6100C84651 /* ViewController.swift */,
+				2BFDB08E267B121B00DDF064 /* BIUSButtonGroup */,
+				2BFDB09F267B34C500DDF064 /* Data */,
+				2BE1B80A268039C400416F27 /* Delegate */,
+				2BFDB0A6267C343E00DDF064 /* View */,
+				2BE1B8092680230B00416F27 /* Method */,
 				2B1D3CE3267A1B6100C84651 /* Main.storyboard */,
 				2B1D3CE6267A1B6300C84651 /* Assets.xcassets */,
 				2B1D3CE8267A1B6300C84651 /* LaunchScreen.storyboard */,
@@ -126,6 +163,57 @@
 				2B1D3D01267A1B6300C84651 /* Info.plist */,
 			);
 			path = RichTextDemoUITests;
+			sourceTree = "<group>";
+		};
+		2BE1B8092680230B00416F27 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDB0A2267C2DDC00DDF064 /* BlockType.swift */,
+				2BFDB09B267B262100DDF064 /* Notification.swift */,
+				2BE1B80726801F4600416F27 /* UndoAndRedo.swift */,
+				2BFDB09D267B274000DDF064 /* Extension.swift */,
+				2B523330267F7265004BF20A /* SaveToFile.swift */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		2BE1B80A268039C400416F27 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1B80B26803A0100416F27 /* ListViewDelegate.swift */,
+				2BE1B80D26803AC700416F27 /* TextBlockViewDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2BFDB08E267B121B00DDF064 /* BIUSButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDB08C267B11A200DDF064 /* BIUSButtonGroup.swift */,
+				2BFDB0A7267CAD3400DDF064 /* RightButtonGroup.swift */,
+				2BFDB0A9267CAF6600DDF064 /* ImagePicker.swift */,
+			);
+			path = BIUSButtonGroup;
+			sourceTree = "<group>";
+		};
+		2BFDB09F267B34C500DDF064 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2B1D3D11267A1C4900C84651 /* DataModel.swift */,
+				2B1D3D0D267A1C2000C84651 /* RichText.swift */,
+				2B1D3D0F267A1C3A00C84651 /* Pattern.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2BFDB0A6267C343E00DDF064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B1D3D15267A28D400C84651 /* ListView.swift */,
+				2BFDB0A0267C293A00DDF064 /* ImageBlockView.swift */,
+				2B1D3D13267A1D7000C84651 /* TextBlockView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +346,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1D3D16267A28D400C84651 /* ListView.swift in Sources */,
+				2B1D3D0E267A1C2000C84651 /* RichText.swift in Sources */,
+				2B1D3D12267A1C4900C84651 /* DataModel.swift in Sources */,
+				2BE1B80826801F4600416F27 /* UndoAndRedo.swift in Sources */,
+				2BE1B80E26803AC700416F27 /* TextBlockViewDelegate.swift in Sources */,
+				2B523331267F7265004BF20A /* SaveToFile.swift in Sources */,
+				2B1D3D10267A1C3A00C84651 /* Pattern.swift in Sources */,
+				2BFDB0A1267C293A00DDF064 /* ImageBlockView.swift in Sources */,
+				2BFDB09E267B274000DDF064 /* Extension.swift in Sources */,
+				2BE1B80C26803A0100416F27 /* ListViewDelegate.swift in Sources */,
+				2BFDB0A3267C2DDC00DDF064 /* BlockType.swift in Sources */,
+				2B1D3D14267A1D7000C84651 /* TextBlockView.swift in Sources */,
 				2B1D3CE2267A1B6100C84651 /* ViewController.swift in Sources */,
+				2BFDB09C267B262100DDF064 /* Notification.swift in Sources */,
 				2B1D3CDE267A1B6100C84651 /* AppDelegate.swift in Sources */,
+				2BFDB08D267B11A200DDF064 /* BIUSButtonGroup.swift in Sources */,
+				2BFDB0AA267CAF6600DDF064 /* ImagePicker.swift in Sources */,
 				2B1D3CE0267A1B6100C84651 /* SceneDelegate.swift in Sources */,
+				2BFDB0A8267CAD3400DDF064 /* RightButtonGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
